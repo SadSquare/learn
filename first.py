@@ -5,7 +5,17 @@ documents = [
       ]
 
 def people():
-    num = input(">")
-    for doc in documents:
-        for 
+
+  num = input(">")
+  for doc in documents:
+    if doc['number'] == num:
+      print(doc['name'])
+    else:
+      print('Not ->',doc['name'])
+
+def list_doc():
+  for doc in documents:
+    print("Passpotr №: " + doc['number']+'\n'+"Name: " + doc['name']+'\n')
+
+list_doc()
 people()
