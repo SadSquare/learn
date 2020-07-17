@@ -28,7 +28,6 @@ class Chick(Yes_fly):
 animal_test = Cow(10, 25)
 second_animal_test = Guse(0,0)
 
-print(second_animal_test.name, second_animal_test.fly_status)
-print(animal_test.name, animal_test.fly_status)
 
+print(animal_test.name, animal_test.fly_status)
 
